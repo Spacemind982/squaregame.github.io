@@ -1,0 +1,62 @@
+/* 三套主题（用 CSS 变量） */
+
+/* 经典灰白（默认） */
+.theme-classic {
+  --bg: #f0f0f0;
+  --fg: #222;
+  --nav-bg: #333;
+  --nav-fg: #fff;
+  --board-bg: #000;
+  --panel-bg: #fff;
+  --border: #ccc;
+  --primary: #2d7;
+  --btn-bg: #eee;
+  --btn-fg: #222;
+  --btn-border: #333;
+  --title-fg: #222;
+  --th-bg: #eee;
+  --key-bg: #eee;
+  --hint-bg: #fff;
+}
+
+/* 暗黑 */
+.theme-dark {
+  --bg: #1a1a1a;
+  --fg: #e0e0e0;
+  --nav-bg: #0a0a0a;
+  --nav-fg: #fff;
+  --board-bg: #000;
+  --panel-bg: #2a2a2a;
+  --border: #444;
+  --primary: #44d;
+  --btn-bg: #333;
+  --btn-fg: #eee;
+  --btn-border: #555;
+  --title-fg: #fff;
+  --th-bg: #383838;
+  --key-bg: #333;
+  --hint-bg: #2a2a2a;
+  color-scheme: dark;
+}
+
+/* 霓虹 */
+.theme-neon {
+  --bg: #050015;
+  --fg: #0ff;
+  --nav-bg: #0a0020;
+  --nav-fg: #f0f;
+  --board-bg: #000;
+  --panel-bg: #0a0a25;
+  --border: #f0f;
+  --primary: #f0f;
+  --btn-bg: #050525;
+  --btn-fg: #0ff;
+  --btn-border: #0ff;
+  --title-fg: #f0f;
+  --th-bg: #1a0a30;
+  --key-bg: #0a0a25;
+  --hint-bg: #0a0a25;
+  color-scheme: dark;
+}
+.theme-neon .pixel-title { text-shadow: 0 0 8px #f0f, 0 0 16px #f0f; }
+.theme-neon .nav-link:hover { background: rgba(255, 0, 255, 0.15); }

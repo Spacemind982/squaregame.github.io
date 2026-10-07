@@ -1,0 +1,18 @@
+{
+  "name": "tankgame-tetris",
+  "version": "1.0.0",
+  "description": "经典像素版俄罗斯方块网页游戏",
+  "type": "module",
+  "scripts": {
+    "start": "serve . -l 8080",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "serve": "^14.2.3",
+    "vitest": "^1.6.0",
+    "jsdom": "^24.1.0"
+  }
+}
